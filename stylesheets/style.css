@@ -1,0 +1,360 @@
+/* RISD 2nd Life StyleSheet - Callil Capuozzo + Phil Cao */
+
+
+@font-face {
+    font-family: 'procionoregular';
+    src: url('../Fonts/Prociono/prociono-webfont.eot');
+    src: url('../Fonts/Prociono/prociono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/Prociono/prociono-webfont.woff') format('woff'),
+         url('../Fonts/Prociono/prociono-webfont.ttf') format('truetype'),
+         url('../Fonts/Prociono/prociono-webfont.svg#procionoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'apercu_probold';
+    src: url('../Fonts/Apercu/apercu_pro_bold-webfont.eot');
+    src: url('../Fonts/Apercu/apercu_pro_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/Apercu/apercu_pro_bold-webfont.woff') format('woff'),
+         url('../Fonts/Apercu/apercu_pro_bold-webfont.ttf') format('truetype'),
+         url('../Fonts/Apercu/apercu_pro_bold-webfont.svg#apercu_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2{
+	font-size:52px;
+	font-family:'apercu_probold';
+/*	text-transform: uppercase;
+*/	color:#F15644;
+	letter-spacing:-1px;
+	font-weight:100;
+}
+
+p{
+	font-size:12px;
+	font-family:arial;
+	line-height:18px;
+	color:#2e2e2e;
+
+}
+
+body{
+font-family:Georgia, serif;
+font-size: 16px;
+color: #fff;
+
+}
+
+a{
+	color:white;
+	text-decoration:underline;
+}
+
+a:hover;{
+	color:white;
+	text-decoration:none;
+}
+
+h4{
+	color: white;
+	font-size: 16px; 
+}
+
+/* HEAD */
+#header{
+	padding: 10px 20px 10px 20px;
+	background-color: #e83c2c;
+}
+
+.title{
+	
+	float:left;
+}
+
+.title img{
+
+width: 50px;
+}
+
+/* NAV */
+
+#nav{
+	width:280px;
+	float: left;
+	padding-top: 12px;
+}
+
+.nav-link{	
+	width: 70px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	float: left;
+	height: 30px;
+}
+
+.nav-image{
+	background-repeat: no-repeat;
+	padding-right: 60px;
+	padding-top: 0px;
+	float: right;
+	height: 20px;
+}
+
+
+#about-link{	
+	background-image: url("../images/assets/AboutHover.png");
+	height: 40px;
+}
+
+#about-link:hover{
+	background-image: url("../images/assets/About.png");
+}
+
+#team-link{	
+	background-image: url("../images/assets/TeamHover.png");
+	height: 40px;
+}
+
+
+
+#team-link:hover{
+	background-image: url("../images/assets/Team.png");
+}
+
+#blog-link{	
+	background-image: url("../images/assets/BlogHover.png");
+	height: 40px;
+}
+
+#blog-link:hover{
+	background-image: url("../images/assets/Blog.png");
+}
+
+.row{
+	max-width: 1800px;
+	
+}
+
+
+
+.text{
+	margin-top: 20px;
+
+}
+#body{
+	padding-bottom: 20px;
+}
+
+.imagelink{
+	 margin-bottom: 10px;
+	 height:275px;
+	 display:block;
+	 background:transparent url("../images/assets/Pic.png") center top no-repeat;
+	 background-size: contain;
+ }
+
+ .imagelink:hover{
+   background-image: url("../images/assets/PicHover.png");
+}
+
+/* TEAM PAGE */
+
+.profile{
+	width:400px;
+	min-height:200px;
+}
+
+#profile-pic{
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+#profile-box{
+	float:left;
+	margin-bottom:25px;
+}
+
+
+	
+p .profile{
+	font-style: italic;
+
+}
+
+
+
+/*ABOUT PAGE*/
+
+#about{
+margin-top: 30px;
+}
+
+#press{
+	width: 300px;
+	height: 40px;
+	background-image: url("../images/assets/Press.png");
+	background-repeat: no-repeat;
+	float:left;
+	margin-bottom: 10px;
+}
+
+#progress{
+	width: 300px;
+	height: 40px;
+	background-image: url("../images/assets/Progress.png");
+	background-repeat: no-repeat;
+	float:left;
+	margin-bottom: 10px;
+}
+
+#program{
+	width: 300px;
+	height: 40px;
+	background-image: url("../images/assets/Program.png");
+	background-repeat: no-repeat;
+	float:left;
+	margin-bottom: 10px;
+}
+
+#articles p{
+	font-style: italic;
+}
+
+
+/*BLOG PAGE*/ 
+.diary{
+	height:1500px;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1024px){
+body{ 
+font-size: 14px;
+}
+
+#header{
+margin-top: 10px;
+padding-bottom: 20px;
+width:100%;
+height:100%;
+}
+
+}
+
+@media only screen and (max-width: 767px){
+#logo{
+
+margin-left: 20%;
+float: left;
+text-align: center;
+
+
+}
+#header{
+margin-top: none;
+padding-bottom: 20px;
+
+}
+}
+
+
+
+.HeaderBlock h1{
+	color:#F15644;
+	font-size:80px;
+	font-family:arial;
+	letter-spacing:2px;
+	font-family:'apercu_probold';
+
+}
+
+
+body{
+	/*background-image:url(dust.png);*/
+	background-color: #e9e6e0;
+}
+
+.Wrapper{
+	min-width:5000px;
+	height:100%;
+	margin-left:25px;
+}
+
+.HeaderBlock{
+	min-width:100%;
+	height:100px;
+	position:fixed;
+	z-index:10;
+}
+
+
+
+
+.Block{
+
+}
+
+.TextBlock{
+	float:left;
+	margin-right:25px;
+/*	padding:25px;*/
+	text-align:left;
+	top:50px;
+	width:400px;
+	height:600px;
+	position:relative;
+	
+	z-index:-1;
+
+}
+
+.PictureBlock{
+	width:350px;
+	z-index:0;
+	float:left;
+	margin-right:25px;
+/*	padding:25px;*/
+	text-align:left;
+	top:50px;
+	height:600px;
+	position:relative;
+	top:100px;
+
+}
+
+#PictureBlock1{
+	z-index:50;
+
+}
+
+#PictureBlock2{
+	width:520px;
+}
+
+#PictureBlock3{
+	margin-top:-100px;
+	margin-left:-200px;
+	width:550px;
+}
+
+.BodyTextWrapper{
+	width:300px;
+
+	text-align:left;
+}
+
+.ItemImage{
+	float:left;
+}
+
+.ItemImage:hover{
+}
+
+
+/* STYLE END */
