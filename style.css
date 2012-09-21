@@ -1,0 +1,135 @@
+
+@font-face {
+    font-family: 'procionoregular';
+    src: url('Fonts/Prociono/prociono-webfont.eot');
+    src: url('Fonts/Prociono/prociono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/Prociono/prociono-webfont.woff') format('woff'),
+         url('Fonts/Prociono/prociono-webfont.ttf') format('truetype'),
+         url('Fonts/Prociono/prociono-webfont.svg#procionoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'apercu_probold';
+    src: url('Fonts/Apercu/apercu_pro_bold-webfont.eot');
+    src: url('Fonts/Apercu/apercu_pro_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/Apercu/apercu_pro_bold-webfont.woff') format('woff'),
+         url('Fonts/Apercu/apercu_pro_bold-webfont.ttf') format('truetype'),
+         url('Fonts/Apercu/apercu_pro_bold-webfont.svg#apercu_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+h2{
+	font-size:52px;
+	font-family:'apercu_probold';
+/*	text-transform: uppercase;
+*/	color:#F15644;
+	letter-spacing:-1px;
+	font-weight:100;
+}
+
+p{
+	font-size:12px;
+	font-family:arial;
+	line-height:18px;
+	color:#2e2e2e;
+
+}
+
+.HeaderBlock h1{
+	color:#F15644;
+	font-size:80px;
+	font-family:arial;
+	letter-spacing:2px;
+	font-family:'apercu_probold';
+
+}
+
+
+body{
+	/*background-image:url(dust.png);*/
+	background-color: #e9e6e0;
+}
+
+.Wrapper{
+	min-width:5000px;
+	height:100%;
+	margin-left:25px;
+}
+
+.HeaderBlock{
+	min-width:100%;
+	height:100px;
+	position:fixed;
+	z-index:10;
+}
+
+
+
+
+.Block{
+
+}
+
+.TextBlock{
+	float:left;
+	margin-right:25px;
+/*	padding:25px;*/
+	text-align:left;
+	top:50px;
+	width:400px;
+	height:600px;
+	position:relative;
+	top:100px;
+	z-index:-1;
+
+}
+
+.PictureBlock{
+	width:350px;
+	z-index:0;
+	float:left;
+	margin-right:25px;
+/*	padding:25px;*/
+	text-align:left;
+	top:50px;
+	height:600px;
+	position:relative;
+	top:100px;
+
+}
+
+#PictureBlock1{
+	z-index:50;
+
+}
+
+#PictureBlock2{
+	width:520px;
+}
+
+#PictureBlock3{
+	margin-top:-100px;
+	margin-left:-200px;
+	width:550px;
+}
+
+.BodyTextWrapper{
+	width:300px;
+	margin-top:-30px;
+	text-align:left;
+}
+
+.ItemImage{
+	float:left;
+}
+
+.ItemImage:hover{
+}
