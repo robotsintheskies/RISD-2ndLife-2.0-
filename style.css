@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family: 'apercu_probold';
+    font-family: 'Apercu';
     src: url('Fonts/Apercu/apercu_pro_bold-webfont.eot');
     src: url('Fonts/Apercu/apercu_pro_bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('Fonts/Apercu/apercu_pro_bold-webfont.woff') format('woff'),
@@ -28,7 +28,7 @@
 
 h2{
 	font-size:52px;
-	font-family:'apercu_probold';
+	font-family:'Apercu';
 /*	text-transform: uppercase;
 */	color:#F15644;
 	letter-spacing:-1px;
@@ -48,7 +48,7 @@ p{
 	font-size:80px;
 	font-family:arial;
 	letter-spacing:2px;
-	font-family:'apercu_probold';
+	font-family:'Apercu';
 
 }
 
@@ -92,18 +92,24 @@ body{
 
 }
 
+#Team{}
+#Home{}
+#About{}
+#News{}
+
 .PictureBlock{
-	width:350px;
+	min-width:350px;
 	z-index:0;
 	float:left;
 	margin-right:25px;
 /*	padding:25px;*/
-	text-align:left;
+	text-align:center;
 	top:50px;
 	height:600px;
 	position:relative;
 	top:100px;
-
+/*	background-color:red;
+*/
 }
 
 #PictureBlock1{
@@ -121,6 +127,12 @@ body{
 	width:550px;
 }
 
+#PictureBlock4{
+	z-index:-1;
+	top:200px;
+	left:50px;
+}
+
 .BodyTextWrapper{
 	width:300px;
 	margin-top:-30px;
@@ -132,4 +144,31 @@ body{
 }
 
 .ItemImage:hover{
+}
+
+#Footer{
+	max-height:50px;
+	width:100%;
+	position:fixed;
+	bottom:25px;
+
+}
+
+#NavLinks{
+	list-style:none;
+	display:inline;
+}
+
+#NavLinks li a{
+	color:#F15644;
+	font-weight:bold;
+	font-family:"Apercu";
+	text-decoration:none;
+	font-size:20px;
+	float:left;
+	padding-right:25px;
+}
+
+#NavLinks li a:hover{
+	color:#CCCCCC;
 }
